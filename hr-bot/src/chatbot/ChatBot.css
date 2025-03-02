@@ -1,0 +1,125 @@
+.chatbox {
+    width: 90%;
+    max-width: 600px;
+    height: 80vh;
+    max-height: 800px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto; /* Adjusted margin to ensure it's not hidden from the top */
+    position: relative; /* Added position relative */
+    top: 5px; /* Added top offset */
+}
+
+.chatbox-header {
+    padding: 10px;
+    background-color: #56d5f8;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.chatbox-messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.message {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.message.bot {
+    flex-direction: row;
+}
+
+.message.user {
+    flex-direction: row-reverse;
+}
+
+.message .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d7d7d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.message .text {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.message.bot .text {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.message.user .text {
+    background-color: #007bff;
+    color: white;
+}
+
+.chatbox-input {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.chatbox-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.chatbox-input button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.chatbox-input button:hover {
+    background-color: #0056b3;
+}
+
+.chatbox-footer {
+    padding: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 14px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer-button {
+    padding: 5px;
+    margin-left: 1rem;
+}
+
+.success-btn {
+    background-color: green;
+}
