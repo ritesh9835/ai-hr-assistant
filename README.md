@@ -17,4 +17,4 @@ AI Bot to screen candidate based on Job description
 - naviagte to hr-bot folder and do `npm install`
 - run frotnend code `npm start`
 
-### This project is developed as assignment of IIIT, Bangalore AI/ML PG Program. Please feel free to extand this based on your requirements. 
+### This project is developed as assignment of IIIT, Bangalore AI/ML PG Program. Please feel free to extend this based on your requirements. 
