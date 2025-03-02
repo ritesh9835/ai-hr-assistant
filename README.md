@@ -3,9 +3,9 @@
 AI Bot to screen candidate based on Job description
 
 ## Required setup
--- PgSql
--- Python(3.10.8)
--- Node.Js
+- PgSql
+- Python(3.10.8)
+- Node.Js
 
 ## Steps
 - Create database hr_bot on pgsql
