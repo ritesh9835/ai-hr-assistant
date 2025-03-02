@@ -1,4 +1,4 @@
-# AI HR Assisstant
+# AI HR Assistant
 
 The system allows candidates to submit their profiles, resumes, and job URLs, and then engages them in a chatbot-based screening process. Leveraging Azure OpenAI GPT-4.0 mini model, the system generates relevant screening questions based on the job description extracted from the provided URL. The candidate's responses are analyzed, and an assessment summary, including a score and overall evaluation, is generated.
 
